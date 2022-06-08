@@ -1,0 +1,47 @@
+#playlist {
+    list-style: none;
+}
+
+#playlist li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#playlist li {
+    margin-top: 5px;
+    text-align: left;
+}
+
+#playlist li:hover {
+    background: rgb(0, 147, 206);
+}
+
+#playlist .current-song a{
+    color: rgb(22, 143, 212);
+}
+
+
+/* Playlist */
+.options {
+    display:flex;
+    width:370px;
+    background: rgb(41, 40, 40);
+    max-height:300px;
+    overflow-y:scroll;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.options::-webkit-scrollbar {
+    width: 15px;
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.options::-webkit-scrollbar-thumb {
+    background: #525861;  
+}
