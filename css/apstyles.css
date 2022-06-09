@@ -45,3 +45,11 @@
 .options::-webkit-scrollbar-thumb {
     background: #525861;  
 }
+
+#map {
+    border-radius: 15px;
+}
+
+#ptround {
+    border-radius: 13px;
+}
